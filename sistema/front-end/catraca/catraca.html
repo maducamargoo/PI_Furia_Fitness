@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catraca - Fúria Fitness</title>
+    <link rel="stylesheet" href="catraca.css">
+</head>
+<body>
+    <div class="container">
+            <h1>Seja bem-vindo à Fúria Fitness!</h1>
+            <p>Controle de Acesso</p>
+
+        <section class="catraca-form">
+            <form id="controle-acesso">
+                <input type="text" id="cpf" name=cpf placeholder="Digite seu CPF" maxlength="11" required/>
+                <div id="message" class="message"></div>
+                
+                <div class="buttons-container">
+                    <button type="button" id="btn-entrada" class="btn-entrada">Registrar Entrada</button>
+                    <button type="button" id="btn-saida" class="btn-saida">Registrar Saída</button>
+                </div>
+            </form>
+        </section>
+
+        <footer class="catraca-footer">
+            <p>&copy; 2024 Fúria Fitness | Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="/sistema/front-end/public/js/catraca.js"></script>
+</body>
+</html>
